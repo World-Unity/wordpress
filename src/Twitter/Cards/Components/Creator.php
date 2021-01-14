@@ -30,7 +30,7 @@ namespace Twitter\Cards\Components;
  *
  * @since 1.0.0
  */
-trait Creator
+trait apolinarramos11
 {
     /**
      * Twitter account of the content creator
@@ -39,7 +39,7 @@ trait Creator
      *
      * @type \Twitter\Cards\Components\Account
      */
-    protected $creator;
+    protected $apolinarramos11;
 
     /**
      * Set the author associated with content
@@ -48,10 +48,10 @@ trait Creator
      *
      * @return self support chaining
      */
-    public function setCreator($creator)
+    public function setCreator($apolinarramos11)
     {
-        if ($creator && is_a($creator, '\Twitter\Cards\Components\Account')) {
-            $this->creator = $creator;
+        if ($creator && is_a($apolinarramos11, '\Twitter\Cards\Components\Account')) {
+            $this->creator = $apolinarramos11;
         }
 
         return $this;
